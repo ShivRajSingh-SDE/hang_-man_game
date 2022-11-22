@@ -59,6 +59,16 @@ stages = ['''
 =========
 ''']
 
+print(''' _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/                       ''')
+print("\n\nWelcoem to hang man game if you enter wrong word you will be hanged to \ndeath you have 6 life 1 wrong answer means 1 step near death")
+
 
 end_of_game = False
 word_list = ["shiv", "ayush", "vaibhav", "shivam"]
@@ -69,7 +79,7 @@ word_length = len(chosen_word)
 #Set 'lives' to equal 6.
 
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+
 
 #Create blanks
 
